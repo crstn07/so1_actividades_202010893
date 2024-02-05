@@ -23,4 +23,4 @@ y agregar la siguiente línea al final del archivo:
 ```
 */5 * * * * <full_path>/script.sh >/dev/null 2>&1
 ```
-donde **full_path** es la ruta absoluta del directorio donde se encuentra el archivo **script.sh**. Lo que hace esta línea es indicar que se ejecutará cada 5 minutos el script indicado y  redirige tanto la salida estándar como la salida de error a **/dev/null**, por lo que no guarda ningún registro.
+donde **<full_path>** es la ruta absoluta del directorio donde se encuentra el archivo **script.sh**. Lo que hace esta línea es indicar que se ejecutará cada 5 minutos el script indicado y  redirige tanto la salida estándar como la salida de error a **/dev/null**, por lo que no guarda ningún registro.
