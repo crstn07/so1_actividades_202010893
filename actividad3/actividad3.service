@@ -1,0 +1,9 @@
+[Unit]
+Description=SO1 Actividad 3
+
+[Service]
+User=cristian
+ExecStart=/home/cristian/Documentos/so1_actividades_202010893/actividad3/actividad3.sh
+
+[Install]
+WantedBy=multi-user.target
