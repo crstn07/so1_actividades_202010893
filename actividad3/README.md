@@ -1,4 +1,4 @@
-## Creación del script *`actividad3.sh`*
+## Crear el script *`actividad3.sh`*
 El script imprime un saludo y la fecha actual infinitamente con una pausa de un segundo:
 
 ```bash
