@@ -1,4 +1,4 @@
-## Crear los named pipes
+## Crear los Named Pipes
 
 Siempre se deberán crear los siguientes pipes antes de ejecutar los scripts para cada participante de la conversación. El siguiente comando creará los pipes:
 ```bash
@@ -42,7 +42,7 @@ done
 
 Se definen dos variables, *"verde"* y *"reset"*, que contienen códigos de escape ANSI para establecer el color de la salida en verde y restablecer el color predeterminado, respectivamente. Estos códigos se utilizan más adelante para resaltar los mensajes en la salida.
 
-Se define una función llamada "cleanup" que se ejecutará al finalizar el script. Esta función se encarga de eliminar los named pipes *"pipe1"* y *"pipe2"* utilizando el comando *"rm -f"*.
+Se define una función llamada *"cleanup"* que se ejecutará al finalizar el script. Esta función se encarga de eliminar los Named Pipes *"pipe1"* y *"pipe2"* utilizando el comando *"rm -f"*.
 
 Se utiliza el comando *"trap"* para asociar la función *"cleanup"* al evento *"EXIT"*, lo que significa que la función se ejecutará automáticamente cuando el script finalice.
 
@@ -85,7 +85,7 @@ done
 
 Se definen dos variables, *"verde"* y *"reset"*, que contienen códigos de escape ANSI para establecer el color de la salida en verde y restablecer el color predeterminado, respectivamente. Estos códigos se utilizan más adelante para resaltar los mensajes en la salida.
 
-Se define una función llamada "cleanup" que se ejecutará al finalizar el script. Esta función se encarga de eliminar los named pipes *"pipe1"* y *"pipe2"* utilizando el comando *"rm -f"*.
+Se define una función llamada *"cleanup"* que se ejecutará al finalizar el script. Esta función se encarga de eliminar los Named Pipes *"pipe1"* y *"pipe2"* utilizando el comando *"rm -f"*.
 
 Se utiliza el comando *"trap"* para asociar la función *"cleanup"* al evento *"EXIT"*, lo que significa que la función se ejecutará automáticamente cuando el script finalice.
 
